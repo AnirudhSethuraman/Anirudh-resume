@@ -1,0 +1,70 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("intro-bg.jpg"); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header-content {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #1e90ff;
+    margin-top: -60px; /* Adjust as needed to vertically center the profile picture */
+    z-index: 1; /* Ensure the profile picture is above the text */
+    position: relative; /* Ensure positioning relative to the header-content */
+}
+
+.header-content h1 {
+    margin: 10px 0;
+}
+
+.header-content a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content h2 {
+    color: #1e90ff;
+}
+
+.content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.content ul li {
+    margin: 5px 0;
+}
+
+.content a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
